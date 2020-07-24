@@ -1,0 +1,18 @@
+/* stylesheet for projects gallery*/
+
+.pry-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.margin2 {
+    margin: 2vh 2vw;
+}
+
+.pry-left {
+    width: 25vw;
+}
+
+.pry-right {
+    width: 60vw;
+}

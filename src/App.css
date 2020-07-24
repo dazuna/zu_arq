@@ -1,0 +1,88 @@
+html { 
+  height: 100%; 
+}
+
+.sticky-menu {
+  top: 0;
+  height: 3em;
+  font-size: 1.5em;
+  z-index: 5000;
+  display: flex;
+  position: sticky;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+  border-bottom: thin solid black;
+}
+
+.sticky-menu .sticky-item {
+  padding: 0 1em;
+}
+
+.zuarq-logo {
+  padding: 0 1em;
+  z-index: 10;
+  height: inherit;
+}
+
+.intro {
+  text-align: center;
+  position: relative;
+  height: 90vh;
+  overflow-y: hidden;
+}
+
+.intro-slogan {
+  color: white;
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  opacity: 0.8;
+  z-index: 1000;
+}
+
+.intro-image {
+  width: 95vw;
+  vertical-align: middle;
+  z-index: 0;
+}
+
+.nosTitle {
+  color: white;
+  font-size: 3.5em;
+  background-color: gray;
+  margin: 2vh 2vw;
+  padding: 0 1vw;
+}
+
+.nosLevel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2vh 2vw;
+  justify-content: space-around;
+}
+
+.nosKoppy {
+  padding: 2vw;
+  color: white;
+  font-size: 2em;
+  width: 60%;
+  background-color: #8397b0;  
+}
+
+/* .lvl1img {
+  height: 35vh;
+} */
+
+.simple-button {
+  background-color: #8397b0;
+  color: white;
+  font-size: 1.5em;
+  border: none;
+  text-decoration: none;
+}
